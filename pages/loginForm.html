@@ -1,0 +1,30 @@
+<div id="logInPage" align="left">
+    <div style="clear:both;padding:20px;" align="center" >
+<div id="logInField" align="center" >
+<div style="padding-top:75px">
+<span style="font-size:30px;">Please Log in below !!</span>
+<br/><br/>
+<input type="text" class="loginInputField" tabindex="1" required placeholder="Enter your Emp #" data-ng-model="authObj.userName" data-ng-keypress="validateNum()" autofocus size="30" ng-enter="authenticate"/>
+
+<br/>
+<br/>
+<br/>
+<input class="loginInputField" tabindex="2" type="password" required placeholder="Password" data-ng-model="authObj.password" size="30" ng-enter="authenticate"/>
+<br/>
+<br/>
+<br/>
+<div align="center" >
+<button tabindex="3" data-ng-click="authenticate()" class="buttonCls logInBtn" align="center" >Log In</button> </div>
+</div>
+
+</div>
+</div>
+<div class="modalOverlay" data-ng-show="showErrorMsg"></div>
+<div data-ng-show="showErrorMsg" class="item-popup error-popup" style="">
+     <br/><label class="bold loginErrLab">{{errorMsg}}</label><br/><br/>
+     <button data-ng-click="closeErrorPopup()" class="buttonCls popUpBtn" style="width:80px;">Ok</button>
+</div>
+</div>
+<div id="spinnerDiv" ng-show="loading">
+    <img src="images/wai1.gif" class="spinner-loader"/>
+</div>

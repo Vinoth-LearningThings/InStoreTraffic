@@ -1,0 +1,376 @@
+/*!
+ * Bootstrap Docs (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under the Creative Commons Attribution 3.0 Unported License. For
+ * details, see http://creativecommons.org/licenses/by/3.0/.
+ */
+
+.container  {
+  width: 75%
+}
+
+.chart-legend, .bar-legend, .line-legend, .pie-legend, .radar-legend, .polararea-legend, .doughnut-legend {
+  list-style-type: none;
+  margin-top: 5px;
+  text-align: center;
+  -webkit-padding-start: 0;
+  -moz-padding-start: 0;
+  padding-left: 0;
+  font-weight: bold
+}
+
+.chart-legend li, .bar-legend li, .line-legend li, .pie-legend li, .radar-legend li, .polararea-legend li, .doughnut-legend li {
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  padding: 2px 8px 2px 28px;
+  cursor: default;
+  font-weight: bold
+}
+
+.chart-legend li span, .bar-legend li span, .line-legend li span, .pie-legend li span, .radar-legend li span, .polararea-legend li span, .doughnut-legend li span {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  font-weight: bold
+}
+.chart {display: block; width: 90%; height: 232px;}
+
+.typeTxt {
+  font-weight: bold;
+  color: #FF8136;
+  margin-left: 10px;
+}
+
+.chartRegion, .formRegion, .gridRegion, .dailySummaryRegion, .trafficBreakdownRegion, .liveFeedRegion, .trendGraphRegion, .busiestDayGraphRegion, .videoRegion {
+  border: 15px solid #EAEAEA;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #ffffff;
+}
+
+.videoRegion {
+  height: 450px;
+  border: 0px;
+}
+
+.formRegion div {
+  padding-left: 3px;
+}
+
+.trendGraphRegion, .busiestDayGraphRegion, .forecastRegion {
+   border-left: 0px;
+   background-color:#ffffff;
+}
+
+.trendGraphRegion {
+  height: 700px;
+}
+
+.formRegion {
+  padding-top: 10px;;
+  padding-bottom: 0px;
+  background-color: #fff;
+  color: #000;
+  border: 0px;
+  margin-top: 10px;
+}
+
+.innerBorder {
+  border: 1px solid #FAD6C0;
+}
+
+.row {
+  margin: 0px;
+}
+
+.deptDropdown
+ {
+   min-width: 68px;
+ }
+
+ .dashboardTextRegion {
+  border: 15px solid #EAEAEA;
+  border-bottom: 0px solid #EAEAEA;
+  border-left: 5px solid #EAEAEA;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  background-color: #EAEAEA;
+}
+
+.typeTxtDashboard {
+  font-weight: bolder;
+  color: black;
+  margin-left: 10px;
+  background-color: #EAEAEA;
+}
+
+.dashboardRegion {
+  border-right: 3px solid #EAEAEA;
+  border-bottom: 15px solid #EAEAEA;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  background-color: #FCFCFC;
+}
+
+.imgVal, .imgValBestDay, .imgValBestHour {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.imgValBestHour {
+    margin-top: 125px;
+}
+
+.bestHourClockImg {
+  margin-top: 10px;
+}
+
+.bestDayDiv {
+  background-color: rgb(245, 132, 0);
+  color: #fff;
+}
+
+.dailySummaryHeader, .trafficBreakdownHeader, .liveFeedHeader, .trendGraphHeader, .busiestDayGraphHeader, .forecastHeader {
+    background-color: #fff;
+    color: #000;
+    margin-top: 5px;
+}
+
+.liveFeedRegion, .busiestDayGraphRegion, .forecastRegion {
+    border-top: 0px;
+}
+
+.canvasDiv {
+    margin-top: 20px;
+    //margin-left: 10px;
+    border-bottom: 15px solid #EAEAEA;
+	
+}
+
+.forecastCanvasDiv {
+  margin-top: 20px;
+}
+
+#datepicker {
+  width: 110%;
+}
+
+.trendGraphHeader {
+  padding-left: 0px;
+      height: 100px;
+}
+
+.dropdown .btn-primary {
+    color: #fff;
+    background-color: rgb(245, 132, 0);
+    border-color: rgb(195, 111, 12);
+}
+
+ .chart-legend-icon,
+  .bar-legend-icon,
+  .line-legend-icon,
+  .pie-legend-icon,
+  .radar-legend-icon,
+  .polararea-legend-icon,
+  .doughnut-legend-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  .chart-legend li span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.trafficBreakdownRegion {
+    border-bottom: 0px;
+}
+
+.breakdownRegion{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.summaryTxt, .summaryImg {
+    text-align: center;
+}
+
+.currentDayTxt {
+    background-color: #E8E9EB;
+    color: #000;
+    float: right;
+}
+
+ #submitButton {
+  border-radius: 10px;
+  border: none;
+ }
+
+ #storeNumberTxt {
+  width: 5em;
+  background-color: transparent;
+  color: #E17922;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #e6781e 1px;
+  padding: 3px 10px;
+  font-weight: bold;
+ }
+
+ button{
+  font-family: Arial;
+  background-color: #e6781e;
+  color:#FFFFFF;
+  box-shadow: 0px 0px 2px 0px, rbga(0,0,0,0.12), 0px,1px 2px 0px rbga(0,0,0,0.24);
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;  
+}
+button:hover{
+  background-color: #F97A27;
+  box-shadow: 0px 0px 3px 0px, rbga(0,0,0,0.12), 0px,1px 2px 0px rbga(0,0,0,0.24);
+}
+
+button:active{
+  background-color: #e6781e;
+  box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+}
+
+button:disabled{
+  background-color: #999999;
+  color: #DDDDDD; 
+  box-shadow: 0px 0px 2px 0px, rbga(0,0,0,0.12), 0px,1px 2px 0px rbga(0,0,0,0.24);
+  cursor: auto;
+}
+
+.fromDept {
+  margin-left: 10px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.imgArea {
+    position: absolute;
+    font-weight: bold;
+    font-size: large;
+    top: 24px;
+    width: 100%;
+    text-align: center;
+    left: 2px;
+}
+
+.imgValArea {
+    position: absolute;
+    top: 53px;
+    width: 100%;
+    text-align: center;
+    left: 2px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.imgDashArea {
+    position: absolute;
+    font-weight: bolder;
+    top: 36px;
+    width: 100%;
+    text-align: center;
+    left: 2px;
+}
+
+sup {
+  font-size: 27px;
+}
+
+.reportsTable {
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(196, 193, 193);
+}
+
+.reportsTable thead {
+  font-weight: bold;
+  border-bottom: 1px solid rgb(196, 193, 193);
+  border-top: 1px solid rgb(196, 193, 193);
+}
+
+.reportsTable td {
+  border-right: 1px solid rgb(196, 193, 193);
+  padding-left: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.reportsTable td:nth-last-child(1) {
+border-right: none;
+}
+
+.reportsTable .deptCol {
+  width: 10%;
+}
+
+.rTagCol, .invCol, .mdCol, .rejCol {
+  width: 15%;
+}
+
+.errorMessage{
+  width: 290px;
+  border: 1px solid burlywood;
+border-radius: 5px;
+border-left: 5px solid maroon;
+height: 30px;
+text-align: left;
+padding: 2px;
+color: maroon;
+background-color: beige;
+margin-top: 8px;
+}
+.livefeed{
+    height: 335px;
+    width: 410px;
+}
+.ng-scope{
+	background-color: #808080;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  background-color: #808080;
+}
+.content-view{
+	min-height: 100%;
+}
+.ui-datepicker{ left: 94% !important; margin-left: -25.5em !important;}
+.dropdown-menu{ left: 100% !important; margin-left: -10.5em !important;}
+[animate-on-change] {
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+[animate-on-change].changed {
+  color: rgb(245, 132, 0);
+  transition: none;
+  -webkit-transition: none;
+}

@@ -1,0 +1,217 @@
+
+
+.tmsTool .ui-datepicker-rtl { direction: rtl; }
+.tmsTool .ui-datepicker-rtl .ui-datepicker-prev { right: 2px; left: auto; }
+.tmsTool .ui-datepicker-rtl .ui-datepicker-next { left: 2px; right: auto; }
+.tmsTool .ui-datepicker-rtl .ui-datepicker-prev:hover { right: 1px; left: auto; }
+.tmsTool .ui-datepicker-rtl .ui-datepicker-next:hover { left: 1px; right: auto; }
+.tmsTool .ui-datepicker-rtl .ui-datepicker-buttonpane { clear:right; }
+.tmsTool .ui-datepicker-rtl .ui-datepicker-buttonpane button { float: left; }
+.tmsTool .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current { float:right; }
+.tmsTool .ui-datepicker-rtl .ui-datepicker-group { float:right; }
+.tmsTool .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+.tmsTool .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header { border-right-width:0; border-left-width:1px; }
+
+
+
+.tmsTool .ui-icon-closethick{
+background-image: url(/MMHSAppointmentSchedulerService/images/closelabel.png) !important; 
+background-position: -5px -7px !important;
+background-repeat: no-repeat !important;
+}
+
+.tmsTool .ui-icon-closethick:HOVER{
+/* background-color: #CCC !important; */
+}
+
+.tmsTool .ui-widget-header .ui-state-hover{
+/* background-color:#E9A01A !important; */
+}
+
+.tmsTool .ui-widget-header { /* border: 0px; border-radus:0px !important;
+
+background: #ffffff; Old browsers
+background: -moz-linear-gradient(top,  #ffb76b 0%, #ff9f32 36%, #ff7c00 54%, #ff7f04 100%); FF3.6+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb76b), color-stop(36%,#ff9f32), color-stop(54%,#ff7c00), color-stop(100%,#ff7f04)); Chrome,Safari4+
+background: -webkit-linear-gradient(top,  #ffb76b 0%,#ff9f32 36%,#ff7c00 54%,#ff7f04 100%); Chrome10+,Safari5.1+
+background: -o-linear-gradient(top,  #ffb76b 0%,#ff9f32 36%,#ff7c00 54%,#ff7f04 100%); Opera 11.10+
+background: -ms-linear-gradient(top,  #ffb76b 0%,#ff9f32 36%,#ff7c00 54%,#ff7f04 100%); IE10+
+background: linear-gradient(to bottom,  #ffb76b 0%,#ff9f32 36%,#ff7c00 54%,#ff7f04 100%); W3C
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); 
+ */color: #FFF; font-weight: bold !important; }
+
+.tmsTool .ui-datepicker .ui-widget-header{ border: 0px; border-radus:0px !important;
+filter:none;
+/* Old browsers */
+/* background: -moz-linear-gradient(top,  #ffb76b 0%, #ff9f32 36%, #ff7c00 54%, #ff7f04 100%); FF3.6+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb76b), color-stop(36%,#ff9f32), color-stop(54%,#ff7c00), color-stop(100%,#ff7f04)); Chrome,Safari4+
+background: -webkit-linear-gradient(top,  #ffb76b 0%,#ff9f32 36%,#ff7c00 54%,#ff7f04 100%); Chrome10+,Safari5.1+
+background: -o-linear-gradient(top,  #ffb76b 0%,#ff9f32 36%,#ff7c00 54%,#ff7f04 100%); Opera 11.10+
+background: -ms-linear-gradient(top,  #ffb76b 0%,#ff9f32 36%,#ff7c00 54%,#ff7f04 100%); IE10+
+background: linear-gradient(to bottom,  #ffb76b 0%,#ff9f32 36%,#ff7c00 54%,#ff7f04 100%); W3C
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); */
+color: #FFF; font-weight: bold; }
+
+.tmsTool .ui-widget-header a { color: #ffffff; }
+
+
+
+.tmsTool .ui-widget-header a { color: #ffffff; }
+
+/* Interaction states
+----------------------------------*/
+.tmsTool .ui-state-default,.tmsTool .ui-widget-content .ui-state-default,.tmsTool  .ui-widget-header .ui-state-default { font-weight: bold; color: #FF9F32; }
+.tmsTool .ui-state-default a,.tmsTool .ui-state-default a:link, .tmsTool .ui-state-default a:visited { color: #FF9F32; text-decoration: none; }
+.tmsTool .ui-widget-content .tmsTool .ui-state-hover, .ui-widget-header .ui-state-hover, .tmsTool .ui-state-focus, .tmsTool .ui-widget-content .ui-state-focus, .tmsTool .ui-widget-header .ui-state-focus { border: 1px solid #fbcb09;font-weight: bold; }
+.tmsTool .ui-datepicker .ui-state-hover{
+color: #c77405 !important;
+background-color: fbcb09 !important;
+border: 0px;
+}
+.tmsTool .ui-state-hover a, .tmsTool .ui-state-hover a:hover, .tmsTool .ui-state-hover a:link, .tmsTool .ui-state-hover a:visited { color: #c77405; text-decoration: none; }
+.tmsTool .ui-state-active, .tmsTool .ui-widget-content .ui-state-active, .tmsTool .ui-widget-header .ui-state-active { border: 1px solid #fbd850; background: #ffffff url(/MMHSAppointmentSchedulerService/images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #eb8f00; }
+.tmsTool .ui-state-active a, .tmsTool .ui-state-active a:link, .tmsTool .ui-state-active a:visited { color: #eb8f00; text-decoration: none; }
+
+/* Interaction Cues
+----------------------------------*/
+.tmsTool .ui-state-highlight,.tmsTool .ui-widget-content .ui-state-highlight,.tmsTool .ui-widget-header .ui-state-highlight  {border: 1px solid #fed22f; background-color::#F3F3F3;/*  #ffe45c url(/MMHSAppointmentSchedulerService/images/ui-bg_highlight-soft_75_ffe45c_1x100.png) 50% top repeat-x */; color: #363636; }
+.tmsTool .ui-state-highlight a,.tmsTool .ui-widget-content .ui-state-highlight a,.tmsTool .ui-widget-header .ui-state-highlight a { color: #363636; }
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {border: 1px solid #cd0a0a; background: #b81900 url(/MMHSAppointmentSchedulerService/images/ui-bg_diagonals-thick_18_b81900_40x40.png) 50% 50% repeat; color: #ffffff; }
+.ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a { color: #ffffff; }
+.ui-state-error-text, .ui-widget-content .ui-state-error-text, .ui-widget-header .ui-state-error-text { color: #ffffff; }
+.ui-priority-primary, .ui-widget-content .ui-priority-primary, .ui-widget-header .ui-priority-primary { font-weight: bold; }
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary,  .ui-widget-header .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+.ui-state-disabled .ui-icon { filter:Alpha(Opacity=35); } /* For IE8 - See #6059 */
+
+
+
+
+
+
+/* states and images */
+.tmsTool .ui-icon { width: 16px ; height: 16px ; background-image: url(/MMHSAppointmentSchedulerService/images/ui-icons_222222_256x240.png); }
+.tmsTool .ui-widget-content .ui-icon {background-image: url(/MMHSAppointmentSchedulerService/images/ui-icons_222222_256x240.png); }
+.tmsTool .ui-widget-header .ui-icon {/* background-image: url(/MMHSAppointmentSchedulerService/images/ui-icons_454545_256x240.png); */}
+.tmsTool .ui-state-default .ui-icon { background-image: url(/MMHSAppointmentSchedulerService/images/ui-icons_ef8c08_256x240.png) !important; }
+.tmsTool .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {}
+.tmsTool .ui-state-active .ui-icon {background-image: url(/MMHSAppointmentSchedulerService/images/ui-icons_ef8c08_256x240.png) !important; }
+.tmsTool .ui-state-highlight .ui-icon {background-image: url(/MMHSAppointmentSchedulerService/images/ui-icons_228ef1_256x240.png) !important; }
+.tmsTool .ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url(/MMHSAppointmentSchedulerService/images/ui-icons_ffd27a_256x240.png) !important; }
+
+.tmsTool .ui-datepicker-next .ui-icon {
+/* background-image: url(/MMHSAppointmentSchedulerService/images/rght_arrow.png) !important;
+width: 22px !important;
+height: 22px !important;
+background-position: -4px -5px !important;
+background-repeat: no-repeat !important;
+ */
+}
+
+.tmsTool .ui-datepicker .ui-datepicker-calendar .ui-state-default{
+background: none;
+}
+
+.tmsTool .ui-datepicker .ui-datepicker-title{
+	font-weight: bold !important;
+}
+
+.tmsTool .ui-datepicker-prev .ui-icon {/* 
+background-image: url(/MMHSAppointmentSchedulerService/images/left_arrow.png) !important;
+background-position: -4px -5px !important;
+width: 22px !important;
+height: 22px !important;
+background-repeat: no-repeat !important; */
+}
+
+
+.tmsTool .ui-dialog-title{
+font-family: Arial !important;
+font-weight: normal;
+font-size: 16px !important;
+color:#000 !important;
+}
+
+.tmsTool .ui-dialog-title span{
+vertical-align:super !important;
+}
+
+.tmsTool .ui-datepicker:AFTER {
+content:"";
+    border-color: transparent transparent #fff transparent;
+    border-style:solid;
+    border-width:12px;
+    width:0;
+    height:0;
+    position:absolute;
+    top:-24px;
+    left:1px
+}
+
+.tmsTool .ui-datepicker{
+font-family: Arial !important;
+}
+
+.tmsTool .hasDatepicker{
+padding-top: 2px;
+}
+
+
+.tmsTool .ui-icon-grip-diagonal-se {background-position: -77px 14px !important;
+width: 1px !important;
+}
+
+.tmsTool .ui-dialog-content {
+background-color: #FFFFFF !important;
+}
+
+
+
+
+
+
+
+/* IE6 IFRAME FIX (taken from datepicker 1.5.3 */
+.tmsTool .ui-datepicker-cover {
+    position: absolute; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    top: -4px; /*must have*/
+    left: -4px; /*must have*/
+    width: 200px; /*must have*/
+    height: 200px; /*must have*/
+}
+
+.tmsTool .ui-datepicker { width: 20em; padding: .2em .4em 0; display: none; }
+.tmsTool .ui-datepicker .ui-datepicker-header { position:relative; padding:.2em 0; }
+.tmsTool .ui-datepicker .ui-datepicker-prev,.tmsTool .ui-datepicker .ui-datepicker-next { position:absolute; top: 2px; width: 1.8em; height: 1.8em; }
+.tmsTool .ui-datepicker .ui-datepicker-prev-hover,.tmsTool .ui-datepicker .ui-datepicker-next-hover { top: 1px; }
+.tmsTool .ui-datepicker .ui-datepicker-prev { left:2px; }
+.tmsTool .ui-datepicker .ui-datepicker-next { right:2px; }
+.tmsTool .ui-datepicker .ui-datepicker-prev-hover { left:1px; }
+.tmsTool .ui-datepicker .ui-datepicker-next-hover { right:1px; }
+.tmsTool .ui-datepicker .ui-datepicker-prev span,.tmsTool .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px;  }
+.tmsTool .ui-datepicker .ui-datepicker-title { margin: 0 2.3em; line-height: 1.8em; text-align: center;color: #666; }
+.tmsTool .ui-datepicker .ui-datepicker-title select { font-size:1em; margin:1px 0; }
+.tmsTool .ui-datepicker select.ui-datepicker-month-year {width: 100%;}
+.tmsTool .ui-datepicker select.ui-datepicker-month, 
+.tmsTool .ui-datepicker select.ui-datepicker-year { width: 49%;}
+.tmsTool .ui-datepicker table {width: 100%; font-size: .9em; border-collapse: collapse; margin:0 0 .4em; }
+.tmsTool .ui-datepicker th { padding: .3em .3em; text-align: center; font-weight: bold; border: 0;background-color: #E5E5E5;color: #666;  }
+.tmsTool .ui-datepicker td { border: 1px solid #333; padding: 1px; }
+.tmsTool .ui-datepicker td span,.tmsTool .ui-datepicker td a { display: block; padding:0.6em 0.4em !important; text-align: center; text-decoration: none;font-size: 12px !important; }
+.tmsTool .ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: .7em 0 0 0; padding:0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
+.tmsTool .ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width:auto; overflow:visible; }
+.tmsTool .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float:left; }
+
+/* with multiple calendars */
+.tmsTool .ui-datepicker.ui-datepicker-multi { width:auto; }
+.tmsTool .ui-datepicker-multi .ui-datepicker-group { float:left; }
+.tmsTool .ui-datepicker-multi .ui-datepicker-group table { width:95%; margin:0 auto .4em; }
+.tmsTool .ui-datepicker-multi-2 .ui-datepicker-group { width:50%; }
+.tmsTool .ui-datepicker-multi-3 .ui-datepicker-group { width:33.3%; }
+.tmsTool .ui-datepicker-multi-4 .ui-datepicker-group { width:25%; }
+.tmsTool .ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header { border-left-width:0; }
+.tmsTool .ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header { border-left-width:0; }
+.tmsTool .ui-datepicker-multi .ui-datepicker-buttonpane { clear:left; }
+.tmsTool .ui-datepicker-row-break { clear:both; width:100%; font-size:0em; }

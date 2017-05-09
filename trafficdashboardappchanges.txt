@@ -1,0 +1,34 @@
+index.html 
+
+ <script src="js/app/socket/sockjs-0.3.4.js"></script>
+      <script src="js/app/socket/stomp.js"></script>
+       <script src="js/app/socket/ng-stomp.js"></script>
+	   
+	   
+app.js
+
+var trafficApp  = angular.module('trafficApp',['ngRoute','ngCookies', 'chart.js','ngStomp']);
+
+homecontroller.js
+
+ $scope.connect();
+
+ 
+ /**
+	 * Method : Connect
+	 * method used to broadcast the messages from server to client to all logging as
+	 * Offshore specialist and messages will be shown using ticker and alert icon.
+	 */
+	$scope.connect = function() {
+		$stomp.connect('http://localhost:8080/alert').then(function (frame) {
+			// Stomp is subscribing the messages.
+			  $stomp.subscribe('/broadcast/messages', function (payload, headers, res) {
+			  	console.log (payload)
+	         	$scope.trafficValue = payload.facedetectionCount;
+	         	$scope.$apply();
+	        });
+		});
+    };
+
+
+ $scope.connect();

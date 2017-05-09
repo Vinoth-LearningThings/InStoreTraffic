@@ -1,0 +1,46 @@
+<div class="container" ng-controller="impactController">
+<div class="headerCls">
+	<div id="logo">
+	<img src="images/THD_logo.png" alt="Go Home" id="logoImg" class=""/>
+	</div>
+	<div id="toolName">
+    <label style="font:bold 20px arial;color: #E98A15;">
+     Impact Analyzer
+    </label></div>
+     <div id="adminBtnDiv" align="right"><button tabindex="2" data-ng-click="adminModule()" class="buttonCls adminBtn">Admin Module</button></div>
+     <div id="logout" align="right"><button tabindex="2" data-ng-click="logout()" class="buttonCls logoutBtn">Logout</button></div>
+     <div id="goHomeImpact" align="right"><img id="app0" src="images/home.png" alt="Go Home" data-ng-click="goHome()"/></div>
+    </div>
+	<div class="orangeBar">Impacted Functionalities</div>
+	<div id="changeList">
+		<label id="selectChangeLbl">Change Functionality</label>
+		 <select id="selectChange" multiple="multiple" class="changeNameDrop" ></select>
+    </div> 
+    <div id="dblClkTxt"><label id="dblClkLbl">*Double Click on Independent Function to change name. Press enter after add/edit.</label></div>
+	<div id="gridDiv">
+	<table id="funcGrid"></table>
+	<div id="pager"></div>
+	</div>
+	
+	<div id="footerBtnsImpact" align="center">
+		<button tabindex="2" data-ng-click="goBack()" class="buttonCls goBackBtn">Go Back</button>
+		<button tabindex="2" class="buttonCls exportBtn"><a class="exportLink"  download="ImpactAnalysis.xls" onclick="return ExcellentExport.excel(this, 'funcGrid', 'Impacts');">Export to Excel</a></button>
+	</div>
+	
+	<div id="colorBox">
+	<div class="box" style="background-color:#83EE97;"></div><p>Priority 1</p>
+	<div class="box" style="background-color:yellow;"></div><p>Priority 2</p>	
+	</div>
+	<div id="viewGrid">
+		<input type="radio" id="impactsGrid" name="somethign" value="impacts" ng-model="gridSelection"><label id="impactsLbl">View only Impacted Functionalities</label></br>
+		<input type="radio" id="fullGrid" name="somethign" value="full" ng-model="gridSelection"><label id="fullLbl">View all Functionalities</label>
+	</div>
+	 <div class="modalOverlay" data-ng-show="showModalBac"></div>
+	<div data-ng-show="showErrorMsg" class="item-popup error-popup" style="">
+     <label class="bold appError">{{errorMsg}}</label><br/><br/>
+     <button data-ng-click="closeAppErrorPopup()" class="buttonCls popUpBtn" style="width:80px;">OK</button>
+</div>
+<div id="spinnerDiv" ng-show="loading">
+    <img src="images/wai1.gif" class="spinner-loader"/>
+</div> 
+</div>

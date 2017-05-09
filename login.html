@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html id="ng-app" ng-app="loginApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>InStore Traffic Alert 1.0</title>
+ <link rel="stylesheet" type="text/css" media="screen" href="css/jquery-ui-1.10.4.custom.css" /> 
+<link rel="stylesheet" type="text/css" media="screen" href="css/custom.css" />
+ <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.multiselect.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/ui.jqgrid.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/multiple-select.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-multiselect.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/jquery.multiselect.filter.css" />
+<!-- <link rel="stylesheet" type="text/css" media="screen" href="js/app/jquery-ui-1.11.1.custom/jquery-ui.css" /> -->
+
+<script type="text/javascript" src="js/app/angular.min.js"></script>
+<script type="text/javascript" src="js/app/angular-route.min.js"></script>
+<script type="text/javascript" src="js/app/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/app/jqgrid/jquery.jqGrid.min.js"></script>
+<script type="text/javascript" src="js/app/jqgrid/i18n/grid.locale-en.js"></script>
+<script type="text/javascript" src="js/app/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="js/app/jquery.multiselect.js"></script>
+<script type="text/javascript" src="js/app/angular-cookies.min.js"></script>
+<script type="text/javascript" src="js/app/jquery.multiple.select.js"></script>
+<script type="text/javascript" src="js/app/bootstrap-multiselect.js"></script>
+<script type="text/javascript" src="js/app/jquery.multiselect.filter.js"></script>
+<script type="text/javascript" src="js/app/fisheye-iutil.min.js"></script>
+<script type="text/javascript" src="js/app/jquery.ui.menubar.js"></script>
+<script type="text/javascript" src="js/app/excellentexport.js"></script>
+<script data-require="angular-animate@*" data-semver="1.2.13" src="js/app/angular-animate.js"></script>
+<script type="text/javascript" src="js/app/jquery.path.js"></script>
+<!-- <script type="text/javascript" src="js/app/jquery-ui-1.11.1.custom/jquery-ui.js"></script>
+<script type="text/javascript" src="js/app/jquery-ui-1.11.1.custom/jquery-ui.min.js"></script> -->
+
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/factories/CommonUtils.js"></script>
+<script type="text/javascript" src="js/factories/AdminDataServices.js"></script>
+<script type="text/javascript" src="js/factories/DataServices.js"></script>
+
+<script type="text/javascript" src="js/controllers/authController.js"></script>
+
+</head>
+<body  style="height: 100%;width:100%;">
+ <div class="content-view"  >
+<!--     <div data-ng-include="'pages/header.html'" align="center" data-ng-controller="authController" ></div> -->
+     <div class="content" align="left">
+     <div class="headerCls">
+	<div id="logo">
+	<img src="images/THD_logo.png" alt="Go Home" id="logoImg" class=""/>
+	</div>
+	<div id="toolName">
+    <label style="font:bold 20px arial;color: #E98A15;">
+     Impact Analyzer
+    </label></div>
+     <div id="logout" align="right"><button tabindex="2" data-ng-click="logout()" class="buttonCls logoutBtn">Logout</button></div>
+    </div>
+	<div class="orangeBar">Login</div>
+	   <div data-ng-include="'pages/loginForm.html'"  align="center"  data-ng-controller="authController"></div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+{
+			    "impactsTO": [
+			                  {
+			                      "appCd": 1,
+			                      "appName": "Stores",
+			                      "mainFuncName": "main1",
+			                      "subFuncName": "sub1",
+			                      "independentFuncName": "func1",
+			                      "impactFlag":false
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "Stores",
+			                      "mainFuncName": "main1",
+			                      "subFuncName": "sub1",
+			                      "independentFuncName": "func2",
+			                      "impactFlag":true
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "Stores",
+			                      "mainFuncName": "main1",
+			                      "subFuncName": "sub1",
+			                      "independentFuncName": "func3",
+			                      "impactFlag":false
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "Stores",
+			                      "mainFuncName": "main1",
+			                      "subFuncName": "sub2",
+			                      "independentFuncName": "func1",
+			                      "impactFlag":true
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "Stores",
+			                      "mainFuncName": "main2",
+			                      "subFuncName": "sub1",
+			                      "independentFuncName": "func1",
+			                      "impactFlag":true
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "Stores",
+			                      "mainFuncName": "main2",
+			                      "subFuncName": "sub1",
+			                      "independentFuncName": "func2",
+			                      "impactFlag":false
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "Stores",
+			                      "mainFuncName": "main2",
+			                      "subFuncName": "sub2",
+			                      "independentFuncName": "func1",
+			                      "impactFlag":false
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "Stores",
+			                      "mainFuncName": "main2",
+			                      "subFuncName": "sub2",
+			                      "independentFuncName": "func3",
+			                      "impactFlag":false
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "POS",
+			                      "mainFuncName": "main1",
+			                      "subFuncName": "",
+			                      "independentFuncName": "func1",
+			                      "impactFlag":true
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "POS",
+			                      "mainFuncName": "main1",
+			                      "subFuncName": "",
+			                      "independentFuncName": "func2",
+			                      "impactFlag":true
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "POS",
+			                      "mainFuncName": "main1",
+			                      "subFuncName": "",
+			                      "independentFuncName": "func3",
+			                      "impactFlag":false
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "POS",
+			                      "mainFuncName": "main1",
+			                      "subFuncName": "sub2",
+			                      "independentFuncName": "func1",
+			                      "impactFlag":true
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "POS",
+			                      "mainFuncName": "main2",
+			                      "subFuncName": "sub1",
+			                      "independentFuncName": "func1",
+			                      "impactFlag":false
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "POS",
+			                      "mainFuncName": "main2",
+			                      "subFuncName": "sub1",
+			                      "independentFuncName": "func2",
+			                      "impactFlag":true
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "POS",
+			                      "mainFuncName": "main2",
+			                      "subFuncName": "sub2",
+			                      "independentFuncName": "func1",
+			                      "impactFlag":true
+			                  },
+			                  {
+			                      "appCd": 1,
+			                      "appName": "POS",
+			                      "mainFuncName": "main2",
+			                      "subFuncName": "sub2",
+			                      "independentFuncName": "func3",
+			                      "impactFlag":false
+			                  }
+			              ]
+			          }

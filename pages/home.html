@@ -1,0 +1,84 @@
+<div class="container" ng-controller="homeController">
+<div class="headerCls">
+	 <div class="row">
+  <div class="col-md-12 formRegion"> 
+  <div class="col-md-4">          
+    <label>Traffic Dashboard</label>            
+  </div>  
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6 dailySummaryRegion">
+    <div class="col-md-12 dailySummaryHeader">
+      <label class="typeTxtDailySummary">Daily Summary</label> <span class='currentDayTxt'>{{currentDay}}</span>
+    </div>
+    <div class="col-md-4 dashboardRegion">
+      <div class="col-md-12 summaryTxt"><label class="">VISITS</label></div>
+      <div class="col-md-12 summaryImg"><img src="images/traffic.png" height="100px" width="40px"></div>
+      <div class="imgVal"><label class=""><span animate-on-change="trafficValue"> {{trafficValue}}</span></label></div>
+    </div>
+    <div class="col-md-4 dashboardRegion">
+      <div class="col-md-12 summaryTxt"><label class="">BEST HOUR</label></div>
+      <div class="col-md-12 summaryImg"><img class="bestHourClockImg" src="images/best-hour.png" height="73px" width="75px"></div>
+      <div class="imgValBestHour"><label class=""> {{bestHour}}</label></div>
+    </div>
+    <div class="col-md-4 dashboardRegion bestDayDiv">
+      <div class="col-md-12 summaryTxt"><label class="">BUSIEST DAY</label></div>
+      <div class="col-md-12 summaryImg"><img src="images/Busiest-day.png" height="100px" width="70%"></div>
+      <div class="imgValBestDay"><label class=""> {{bestDay}}</label></div>
+    </div>  
+    <div class="col-md-12 videoRegion">
+    	<div class="col-md-12 dailySummaryHeader">
+	      <label class="typeTxtDailySummary">Live Feed</label>
+		  <img class="livefeed" id="bg" src="http://localhost:8080/video_feed">
+	    </div>
+    </div> 
+  </div>  
+
+  <div class="col-md-6 trendGraphRegion">
+    <div class="col-md-12 trendGraphHeader">
+      <div class="col-md-9"><label class="typeTxtTrendGraph">Trend</label></div>
+      <div class="col-md-3 dropdown">
+		    <button class="btn btn-primary dropdown-toggle trendBtn" type="button" data-toggle="dropdown">Today
+		    <span class="caret"></span></button>
+		    <ul class="dropdown-menu" id="chartMenu">
+		      <li><a class="todayChart" href="#">Today</a></li>
+		      <li><a class="weekChart" href="#">Week</a></li>
+          <li><a class="monthChart" href="#">Month</a></li>
+		      <li><a class="yearChart" href="#">Year</a></li>
+		    </ul>
+		 </div>
+
+    </div>
+
+    <div class="canvasDiv">
+      <canvas id="line" class="chart chart-line weekChart" chart-data="data" chart-labels="labels" chart-series="series" chart-options="options" chart-colors="colors1" chart-dataset-override="datasetOverride" chart-click="onClick" height='240px' width='520px'>
+	  </canvas>
+    </div>   
+
+    <div class="col-md-12 forecastHeader">
+      <div class="col-md-9"><label class="typeTxtForecast">Forecast</label></div>       
+      <div class="col-md-3 form-group">
+        <div class='input-group date'>
+            <input type="text" class="glyphicon glyphicon-calendar" id="datepicker">
+            <!-- <span class="input-group-addon">
+                <span class="glyphicon glyphicon-calendar"></span>
+            </span> -->
+        </div>
+    </div>   
+    </div>
+    <div class="col-md-12 forecastGridRegion">
+      <div class="forecastCanvasDiv">
+       <canvas id="line" class="chart chart-line" chart-data="data2" chart-labels="labels" chart-series="series2" chart-options="options" chart-colors="colors2" chart-dataset-override="datasetOverride" chart-click="onClick" height='240px' width='530px'>
+	  </canvas>
+      </div>       
+    </div>     
+  
+</div>
+
+
+</div>
+<div id="spinnerDiv" ng-show="loading">
+    <img src="images/wai1.gif" class="spinner-loader"/>
+</div> 
+</div>
